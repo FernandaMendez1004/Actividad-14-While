@@ -10,11 +10,11 @@ switch (opcion)
     case 11:
         Console.WriteLine("Ejercicio 11");
         int num11 = 1;
-        while (num11 <= 10 )
+        while (num11 <= 10)
         { Console.WriteLine($"{num11}");
             num11++;
         }
-    break;
+        break;
     case 12:
         Console.WriteLine("Ejercicio 12");
         int num12 = 10;
@@ -26,16 +26,16 @@ switch (opcion)
     case 13:
         Console.WriteLine("Ejercio 13");
         int num13 = 1;
-        while (num13 != 20 )
+        while (num13 != 20)
         {
             if (num13 % 2 == 0)
             { Console.WriteLine($"{num13}"); }
             else { Console.WriteLine(); }
             num13++;
-               }
-             break;
+        }
+        break;
     case 14:
-        Console.WriteLine("Ejercio 13");
+        Console.WriteLine("Ejercio 14");
         int num14 = 1;
         while (num14 != 20)
         {
@@ -45,6 +45,43 @@ switch (opcion)
             num14++;
         }
         break;
+    case 15:
+        Console.WriteLine("Ejercicio 15");
+        int num15 = 1;
+        int t = 1;
+        while (num15 != 100)
+        {
+            t = t + num15;
+            num15++;
+            t++;
 
-
+        }
+        Console.WriteLine($"{t}");
+        break;
+    case 16:
+        Console.WriteLine("Ejercicio 16");
+        int num16 = 1;
+        while (num16 != 0)
+        { Console.WriteLine("Ingrese un numero");
+           num16 = int.Parse(Console.ReadLine()); } 
+break;
+    case 17:
+        Console.WriteLine("Ejercicio 17");
+        int num17 = 1;
+        int posi = 0;
+        while (num17 != 0)
+        {
+            Console.WriteLine("Ingrese un nuumero");
+            num17 = int.Parse(Console.ReadLine());
+            if (num17 > 0)
+            { 
+            posi ++; 
+            }
+            else { Console.WriteLine(); }
+        }
+        Console.WriteLine($"Fueron {posi} positivos");
+        break;
+    case 18:
+        Console.WriteLine("Ejercicio 18");
+        Console.WriteLine(
 }
