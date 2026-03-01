@@ -5,3 +5,17 @@ Console.WriteLine("21.Sumar números ingresados hasta que el total supere 100.\r
 int opcion = int.Parse(Console.ReadLine());
 
 
+switch (opcion)
+{
+    case 11:
+        Console.WriteLine("Ejercicio 11");
+        int num = 1;
+        while (num <= 10 )
+        { Console.WriteLine($"{num}");
+            num++;
+        }
+    break;
+    case 12:
+
+
+}
