@@ -9,13 +9,19 @@ switch (opcion)
 {
     case 11:
         Console.WriteLine("Ejercicio 11");
-        int num = 1;
-        while (num <= 10 )
-        { Console.WriteLine($"{num}");
-            num++;
+        int num11 = 1;
+        while (num11 <= 10 )
+        { Console.WriteLine($"{num11}");
+            num11++;
         }
     break;
     case 12:
-
+        Console.WriteLine("Ejercicio 12");
+        int num12 = 10;
+        while (num12 >= 1)
+        { Console.WriteLine($"{num12}");
+            num12--;
+        }
+        break;    
 
 }
