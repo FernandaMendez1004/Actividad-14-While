@@ -22,6 +22,29 @@ switch (opcion)
         { Console.WriteLine($"{num12}");
             num12--;
         }
-        break;    
+        break;
+    case 13:
+        Console.WriteLine("Ejercio 13");
+        int num13 = 1;
+        while (num13 != 20 )
+        {
+            if (num13 % 2 == 0)
+            { Console.WriteLine($"{num13}"); }
+            else { Console.WriteLine(); }
+            num13++;
+               }
+             break;
+    case 14:
+        Console.WriteLine("Ejercio 13");
+        int num14 = 1;
+        while (num14 != 20)
+        {
+            if (num14 % 2 == 0)
+            { Console.WriteLine(); }
+            else { Console.WriteLine($"{num14}"); }
+            num14++;
+        }
+        break;
+
 
 }
