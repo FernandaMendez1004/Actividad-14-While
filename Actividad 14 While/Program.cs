@@ -83,5 +83,15 @@ break;
         break;
     case 18:
         Console.WriteLine("Ejercicio 18");
-        Console.WriteLine(
+        Console.WriteLine("Ingrese el numero para calcular el factorial:");
+        int num18 = int.Parse(Console.ReadLine());
+        int factorial = 1;
+        int i = 1;
+        while (i <= num18)
+        {
+            factorial = factorial * i;
+            i++;
+        }
+        Console.WriteLine($"El factorial de {num18}! = {factorial}");
+        break;
 }
