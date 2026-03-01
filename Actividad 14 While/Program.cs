@@ -104,4 +104,16 @@ break;
             numtabla++; 
         }
         break;
+    case 20:
+        Console.WriteLine("Ejercicio 20");
+        Console.WriteLine("Ingrese un número:");
+        int num20 = int.Parse(Console.ReadLine());
+        int contador = 0;
+        while (num20 != 0)
+        {
+            num20 = num20 / 10;
+            contador++;
+        }
+        Console.WriteLine($"El número tiene {contador} dígitos");
+        break;
 }
