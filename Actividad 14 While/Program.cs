@@ -94,4 +94,14 @@ break;
         }
         Console.WriteLine($"El factorial de {num18}! = {factorial}");
         break;
+    case 19:
+        Console.WriteLine("Ejercicio 19");
+        Console.WriteLine("Ingrese un numero para tabla de multiplicar");
+        int num19 = int.Parse(Console.ReadLine());
+        int numtabla = 1;
+        while (numtabla <= 10 )
+        { Console.WriteLine($"{numtabla} * {num19} = {numtabla * num19} ");
+            numtabla++; 
+        }
+        break;
 }
